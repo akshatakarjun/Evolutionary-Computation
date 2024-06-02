@@ -1,0 +1,19 @@
+LoG is the no of binary string that is there in the entire string which is converted into random numbers.
+
+UPoG : Each number in this Genome is a 8-bit number, so the used portion of the genome means only those individuals needed to map everything.
+
+Depth of tree - 13 whereas max depth initialized is 35, so noteven half of it used.only a small portion of it is being used.
+
+This is a good individual since it has used very less no of codons to map everything out.
+It has got the best fitness of 0.0, it has used less no of codons and it has also got less depth.
+
+Compare GP vs GE in two things -
+1. Best(max) fitness of GP / GE
+2. Avg Fitness of GP /GE
+3. Size of Individiuals ( in GP - length of tree / no of nodes in tree , in GE - how many codons you are using)
+
+change the range scale for graph. 
+
+check at what generation each of them are getting the best individual (Convergence), what is the avg fitness of both of these approaches.
+
+adv of using GE - no of codons -> gives a small size of individual saving a lot of memory
